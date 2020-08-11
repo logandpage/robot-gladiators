@@ -26,6 +26,10 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+if (playerHealth > 0) {
+  window.alert("Welcome to Robot Gladiators!" + ( i + 1 ) );
+}
+
 for (var i = 0; i < enemyNames.length; i++) {
   debugger;
   // call fight function with enemy robot
