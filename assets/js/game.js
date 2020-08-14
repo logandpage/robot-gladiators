@@ -234,7 +234,8 @@ var enemyInfo = [
     name: "Robo Trumble",
     attack: (10,14)
   }
-];
-var enemyHealth = 50;
-var enemyAttack = 12;
+]
+enemyInfo.health = 50;
+enemyInfo.attack = 12;
+
 startGame();
